@@ -59,25 +59,25 @@ public class Tic extends JFrame{
 
 	   public Tic(){
                      jf = new JFrame("TIC_TAC_TOE");
-		               jf.setSize(300,350);
-			       jf.setLayout(null);
-		               jf.setDefaultCloseOperation(EXIT_ON_CLOSE);
-		               jf.setVisible(true);
-		               jf.setLocationRelativeTo(null);
-		               jf.setResizable(false);
-                               jf.getContentPane().setBackground( Color.yellow );
+                        jf.setSize(300,350);
+                        jf.setLayout(null);
+                        jf.setDefaultCloseOperation(EXIT_ON_CLOSE);
+                        jf.setVisible(true);
+                        jf.setLocationRelativeTo(null);
+                        jf.setResizable(false);
+                        jf.getContentPane().setBackground( Color.yellow );
 
-		               ListenForButton ListenForButton1 = new ListenForButton();
+                        ListenForButton ListenForButton1 = new ListenForButton();
 
-                  	       b1.setIcon(i);
-			       b2.setIcon(i);
-			       b3.setIcon(i);
-			       b4.setIcon(i);
-			       b5.setIcon(i);
-			       b6.setIcon(i);
-			       b7.setIcon(i);
-			       b8.setIcon(i);
-			       b9.setIcon(i);
+                        b1.setIcon(i);
+                        b2.setIcon(i);
+                        b3.setIcon(i);
+                        b4.setIcon(i);
+                        b5.setIcon(i);
+                        b6.setIcon(i);
+                        b7.setIcon(i);
+                        b8.setIcon(i);
+                        b9.setIcon(i);
                          b1.setBounds(60,55,60,60);
 			 b2.setBounds(120,55,60,60);
 			 b3.setBounds(180,55,60,60);
@@ -94,15 +94,15 @@ public class Tic extends JFrame{
 			 field2.setBounds(60,340,180,20);
 
 
-		               b1.addActionListener(ListenForButton1);
-		               b2.addActionListener(ListenForButton1);
-		               b3.addActionListener(ListenForButton1);
-		               b4.addActionListener(ListenForButton1);
-		               b5.addActionListener(ListenForButton1);
-		               b6.addActionListener(ListenForButton1);
-		               b7.addActionListener(ListenForButton1);
-		               b8.addActionListener(ListenForButton1);
-		               b9.addActionListener(ListenForButton1);
+                        b1.addActionListener(ListenForButton1);
+                        b2.addActionListener(ListenForButton1);
+                        b3.addActionListener(ListenForButton1);
+                        b4.addActionListener(ListenForButton1);
+                        b5.addActionListener(ListenForButton1);
+                        b6.addActionListener(ListenForButton1);
+                        b7.addActionListener(ListenForButton1);
+                        b8.addActionListener(ListenForButton1);
+                        b9.addActionListener(ListenForButton1);
                    play_again.addActionListener(ListenForButton1);
 		   ex.addActionListener(ListenForButton1);
 
